@@ -1,0 +1,114 @@
+{
+  "theme": "Light",
+  "archetype": "1 (Organic & Earthy)",
+  "color_palette": {
+    "background_primary": "#FAF8F5",
+    "background_secondary": "#F0ECE1",
+    "background_accent": "#E8E2D9",
+    "text_primary": "#2A2A2A",
+    "text_secondary": "#5C5C5C",
+    "brand_primary": "#C87A63",
+    "brand_primary_hover": "#B3664F",
+    "brand_secondary": "#D4A373",
+    "border_color": "#E8E2D9",
+    "success": "#4CAF50",
+    "warning": "#FFC107",
+    "error": "#F44336",
+    "surface_glass": "bg-white/70 backdrop-blur-xl border border-white/40",
+    "surface_solid": "bg-[#FAF8F5] border border-[#E8E2D9]"
+  },
+  "typography": {
+    "heading_font": "Cormorant Garamond, serif",
+    "body_font": "Outfit, sans-serif",
+    "h1": "text-4xl sm:text-5xl lg:text-6xl font-medium tracking-tight leading-none",
+    "h2": "text-3xl sm:text-4xl lg:text-5xl font-medium tracking-tight leading-none",
+    "h3": "text-2xl sm:text-3xl font-medium tracking-tight",
+    "h4": "text-xl sm:text-2xl font-medium",
+    "body_large": "text-lg text-[#5C5C5C] leading-relaxed",
+    "body": "text-base text-[#5C5C5C] leading-relaxed",
+    "small": "text-sm text-[#5C5C5C]",
+    "overline": "text-xs font-semibold uppercase tracking-[0.2em] text-[#C87A63]"
+  },
+  "spacing_and_layout": {
+    "container_padding": "px-4 sm:px-6 lg:px-12",
+    "section_spacing": "py-20 lg:py-32",
+    "card_padding": "p-6 lg:p-8",
+    "grid_gap": "gap-6 lg:gap-8",
+    "border_radius": {
+      "sm": "rounded-md",
+      "md": "rounded-lg",
+      "lg": "rounded-xl",
+      "xl": "rounded-2xl",
+      "full": "rounded-full"
+    },
+    "shadows": {
+      "soft": "shadow-[0_8px_30px_rgb(0,0,0,0.04)]",
+      "medium": "shadow-[0_8px_30px_rgb(0,0,0,0.08)]",
+      "glass": "shadow-[0_8px_32px_rgba(0,0,0,0.04)]"
+    }
+  },
+  "components": {
+    "button_primary": "bg-[#C87A63] text-white hover:bg-[#B3664F] px-6 py-3 rounded-full font-medium transition-colors duration-200",
+    "button_secondary": "bg-transparent text-[#2A2A2A] border border-[#2A2A2A] hover:bg-[#2A2A2A] hover:text-white px-6 py-3 rounded-full font-medium transition-colors duration-200",
+    "button_glass": "bg-white/70 backdrop-blur-md text-[#2A2A2A] hover:bg-white/90 px-6 py-3 rounded-full font-medium transition-colors duration-200 shadow-sm",
+    "card": "bg-white rounded-2xl p-6 shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-[#E8E2D9] transition-transform duration-300 hover:-translate-y-1",
+    "input": "w-full bg-white border border-[#E8E2D9] rounded-lg px-4 py-3 text-base focus:outline-none focus:ring-2 focus:ring-[#C87A63] focus:border-transparent transition-all",
+    "header": "fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-xl border-b border-[#E8E2D9] transition-all duration-300"
+  },
+  "image_urls": {
+    "hero_background": {
+      "url": "https://images.pexels.com/photos/7195811/pexels-photo-7195811.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "description": "Black backwash chairs with sinks placed in modern spacious beauty salon with window and arrangement of cosmetology supply on shelves",
+      "category": "hero"
+    },
+    "hero_alternative": {
+      "url": "https://images.unsplash.com/photo-1637777269308-6a072f24e8a4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODh8MHwxfHNlYXJjaHwzfHxtb2Rlcm4lMjBoYWlyJTIwc2Fsb24lMjBpbnRlcmlvciUyMGJyaWdodHxlbnwwfHx8fDE3ODI3NjQ4MDl8MA&ixlib=rb-4.1.0&q=85",
+      "description": "a row of black and white chairs next to a sink",
+      "category": "hero"
+    },
+    "bridal_service": {
+      "url": "https://images.pexels.com/photos/36519701/pexels-photo-36519701.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "description": "Stunning portrait of a woman in traditional Indian bridal attire with intricate jewelry.",
+      "category": "services"
+    },
+    "hair_styling_service": {
+      "url": "https://images.unsplash.com/photo-1636153279424-cb5d1e00f5a2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzR8MHwxfHNlYXJjaHwxfHx3b21hbiUyMGJlYXV0aWZ1bCUyMGhhaXIlMjBzdHlsaW5nJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzgyNzY0ODA5fDA&ixlib=rb-4.1.0&q=85",
+      "description": "a woman with long black hair standing in front of a wall",
+      "category": "services"
+    },
+    "hair_spa_service": {
+      "url": "https://images.unsplash.com/photo-1634449571010-02389ed0f9b0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzV8MHwxfHNlYXJjaHwxfHxoYWlyJTIwc3BhJTIwdHJlYXRtZW50JTIwd2FzaGluZ3xlbnwwfHx8fDE3ODI3NjQ4MjZ8MA&ixlib=rb-4.1.0&q=85",
+      "description": "a woman getting her hair cut by a hair stylist",
+      "category": "services"
+    },
+    "nail_service": {
+      "url": "https://images.unsplash.com/photo-1779636198585-658170ee0283?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODh8MHwxfHNlYXJjaHwyfHxwZWRpY3VyZSUyMG1hbmljdXJlJTIwbmFpbCUyMGFydHxlbnwwfHx8fDE3ODI3NjQ4MjZ8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Manicure and pedicure tools on a blue towel.",
+      "category": "services"
+    },
+    "owner_portrait": {
+      "url": "https://images.unsplash.com/photo-1679138118375-47f78db3761d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1Mjh8MHwxfHNlYXJjaHwyfHxzbWlsaW5nJTIwaW5kaWFuJTIwZmVtYWxlJTIwYnVzaW5lc3MlMjBvd25lciUyMHBvcnRyYWl0fGVufDB8fHx8MTc4Mjc2NDgyNnww&ixlib=rb-4.1.0&q=85",
+      "description": "a woman wearing glasses and a black and white checkered shirt",
+      "category": "about"
+    },
+    "gallery_1": {
+      "url": "https://images.unsplash.com/photo-1546877625-cb8c71916608?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzR8MHwxfHNlYXJjaHwyfHx3b21hbiUyMGJlYXV0aWZ1bCUyMGhhaXIlMjBzdHlsaW5nJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzgyNzY0ODA5fDA&ixlib=rb-4.1.0&q=85",
+      "description": "smiling woman in brown top holding hairs",
+      "category": "gallery"
+    },
+    "gallery_2": {
+      "url": "https://images.pexels.com/photos/20044503/pexels-photo-20044503.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "description": "Black and white portrait of a smiling bride adorned in traditional jewelry.",
+      "category": "gallery"
+    }
+  },
+  "instructions_to_main_agent": {
+    "layout_architecture": "Use a mobile-first approach. Ensure the 'Book Now' button is sticky or highly visible on mobile. Use bento grids for the gallery and services sections to break the typical row-column monotony.",
+    "typography": "Use 'Cormorant Garamond' for elegant, oversized headings. Use 'Outfit' for readable body text. Ensure all headings have tight tracking (tracking-tight) to feel premium.",
+    "colors_and_surfaces": "Avoid pure white for the background; use the warm linen '#FAF8F5'. Use the Terracotta primary color strategically for CTAs. Implement crystal glassmorphism (bg-white/70 backdrop-blur-xl) for the sticky header so it blends seamlessly when scrolling over images.",
+    "interactions": "Add smooth scroll using Lenis or Framer Motion for section reveals. Hover states on cards should have a subtle lift (-translate-y-1) and shadow increase. Provide clear visual feedback when interacting with the booking form.",
+    "testing_attributes": "CRITICAL: Ensure ALL interactive elements (buttons, form inputs, links, tabs) have a 'data-testid' attribute in kebab-case format (e.g., data-testid='book-appointment-button').",
+    "features_to_implement": "1. Hero Section with clear CTA and Google Rating (5.0 / 161 reviews). 2. Services Showcase grouped by categories (Hair, Color, Bridal, etc.). 3. Online Booking System with date/time and service selection. 4. Gallery Section. 5. About Megha section using the owner_portrait image. 6. Reviews section. 7. Contact section with map embed and WhatsApp sticky button. 8. Admin Dashboard for managing bookings and services.",
+    "component_libraries": "Use Shadcn UI for complex interactive components (Booking form, Datepicker, Select, Dialogs, Admin Tables). Customize them to match the Organic & Earthy aesthetic (rounded borders, warm colors, no generic gray borders)."
+  }
+}
