@@ -1,0 +1,75 @@
+{
+  "theme": "light",
+  "archetype": "4",
+  "archetype_name": "Swiss & High-Contrast",
+  "colors": {
+    "background": "#FFFFFF",
+    "surface": "#F9FAFB",
+    "surface_alt": "#F3F4F6",
+    "text_primary": "#0A0A0A",
+    "text_secondary": "#4B5563",
+    "accent_primary": "#002FA7",
+    "accent_hover": "#00227A",
+    "border": "#E5E7EB"
+  },
+  "typography": {
+    "heading_font": "Outfit, sans-serif",
+    "body_font": "IBM Plex Sans, sans-serif",
+    "h1": "text-5xl sm:text-6xl tracking-tighter font-black uppercase text-text_primary",
+    "h2": "text-3xl sm:text-4xl tracking-tight font-bold text-text_primary",
+    "h3": "text-2xl sm:text-3xl tracking-tight font-semibold text-text_primary",
+    "body": "text-base leading-relaxed text-text_secondary",
+    "overline": "text-xs tracking-[0.2em] uppercase font-bold text-accent_primary"
+  },
+  "layout": {
+    "spacing_scale": "Generous spacing. Use p-8, p-12, p-16 for containers to give text breathing room.",
+    "grid_system": "Swiss Grid / Bento combinations. Heavily utilize 1px borders (border-collapse style) to divide sections.",
+    "container": "max-w-7xl mx-auto px-6 md:px-12"
+  },
+  "components": {
+    "hero": {
+      "style": "Text-heavy, full viewport height. Massive uppercase headings taking up the entire screen. Minimalist, no photo.",
+      "animation": "Smooth staggered fade-in up."
+    },
+    "about": {
+      "style": "Editorial style reading experience. Asymmetrical grid placing large text block on one side and the abstract architectural image on the other."
+    },
+    "skills": {
+      "style": "Brutalist tags with 1px borders and sharp corners, or a dense typographic grid."
+    },
+    "experience": {
+      "style": "Minimalist list with clear optical alignment. High-contrast typography for roles vs dates. 1px bottom borders separating items."
+    },
+    "projects": {
+      "style": "Grid with sharp borders, flat surfaces, no drop shadows. Use the abstract image as a visual placeholder."
+    },
+    "contact": {
+      "style": "Massive 'LET'S TALK' text taking up the footer width. High-contrast email link."
+    }
+  },
+  "media": {
+    "image_urls": [
+      {
+        "category": "about_abstract",
+        "url": "https://images.unsplash.com/photo-1483366774565-c783b9f70e2c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1ODR8MHwxfHNlYXJjaHwxfHxtaW5pbWFsaXN0JTIwYXJjaGl0ZWN0dXJlJTIwZ2VvbWV0cnl8ZW58MHx8fHwxNzgyODE0OTM3fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Abstract minimalist concrete architecture. Use in the About section to metaphorically represent structure, operations, and business architecture."
+      },
+      {
+        "category": "projects_abstract",
+        "url": "https://images.unsplash.com/photo-1738844153732-a485f0e78382?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1ODR8MHwxfHNlYXJjaHwyfHxtaW5pbWFsaXN0JTIwYXJjaGl0ZWN0dXJlJTIwZ2VvbWV0cnl8ZW58MHx8fHwxNzgyODE0OTM3fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Black and white architectural geometry. Use as a placeholder for project thumbnails or visual breaks."
+      }
+    ]
+  },
+  "instructions_to_main_agent": [
+    "CRITICAL: Adhere to Archetype 4 (Swiss & High-Contrast) - Light theme. Do not invent a new theme.",
+    "CRITICAL: Use 'Outfit' for all headings and 'IBM Plex Sans' for body text. Import them via Google Fonts in index.css or index.html.",
+    "CRITICAL: Do NOT use a photo of the person. The user explicitly requested to skip the photo. Use the provided abstract images instead to create a high-end corporate feel.",
+    "Hero section should be purely typographic. Use massive font sizes (`text-5xl sm:text-6xl`) to make words like 'OPERATIONS', 'SALES', and 'BUSINESS DEVELOPMENT' visually dominant. Break the text into staggered lines.",
+    "Do not use generic soft shadows (`shadow-md`, `shadow-lg`). Use sharp edges (`rounded-none` or `rounded-sm`), 1px borders (`border-border`), and flat surfaces. This is a brutalist-inspired Swiss design.",
+    "Implement `data-testid` attributes on all interactive elements (links, buttons, etc).",
+    "Include placeholder links for LinkedIn, GitHub, and Resume download.",
+    "The Contact section must feature the mailto:tshatakshi641@gmail.com link prominently, potentially with oversized text.",
+    "Use Lucide-React for icons, keeping them minimal and stroke-based (stroke-width 1.5)."
+  ]
+}
